@@ -1,0 +1,73 @@
+.login_box{
+    background-color: rgb(255 255 255 / 20%); 
+    backdrop-filter: blur(5px);
+    width: 25%;
+    text-align: center;
+    padding: 1.5em;
+    border: solid 1px rgb(255 255 255 / 30%);
+    border-radius: 10px;
+}
+
+.login_elements form > * { 
+    padding: 1em 0.5em;
+}
+
+.login_input{
+    position: relative;
+}
+
+.login_input input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: solid white 1px;
+    outline: none; /*remove borda interna do input padrão Chrome */
+}
+
+.login_input input::placeholder{
+    color: white;
+}
+
+.fa_icons{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    font-size: 10px;
+}
+
+.login_box button{
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    border: solid 1px white;
+}
+
+.forget_remind{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.forget_remind a{
+    text-decoration: none;
+}
+
+.remind_box{
+    display: flex;
+    gap: 0.5em;
+    cursor: pointer;
+}
+
+.register{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.register:hover, .forget_remind a:hover{
+    text-decoration: underline;
+}
