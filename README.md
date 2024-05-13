@@ -1,4 +1,6 @@
 Primeiro projeto com React usando Vite. Não é responsivo.
-Apenas uma tela de login básica, seguindo tutorial presente em: https://www.youtube.com/watch?v=300AFps_XoY
+
+Apenas uma tela de login básica, seguindo tutorial do canal Hora de Codar presente <a href='https://www.youtube.com/watch?v=300AFps_XoY'>aqui</a>,
 porém feito do meu jeito.
-Acessível em: 
+
+Live demo feito por mim acessível em: 
